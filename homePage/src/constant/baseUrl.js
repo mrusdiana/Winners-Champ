@@ -1,0 +1,1 @@
+export const BaseUrl = "https://gc1.winnerschamp.my.id"
