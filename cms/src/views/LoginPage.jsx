@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate, Navigate } from "react-router"
-import logo from './../../../assets/logo1.png';
+import logo from '../assets/logo1.png';
 import axios from "axios"
 import { BaseUrl } from '../constant/Api';
 import { useSnackbar } from 'notistack';
