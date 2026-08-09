@@ -143,6 +143,7 @@ export default function Navbar({ search, categories, setSearch, setCategoryId, c
                     >
                         New Products
                     </NavLink>
+                    <Link to="/allproducts">
                     <select
                         className="text-neutral-600 border rounded-lg px-3 py-2 border-gray-300"
                         value={categoryId}
@@ -156,6 +157,7 @@ export default function Navbar({ search, categories, setSearch, setCategoryId, c
                             <option key={el.id} value={el.id}>{el.name}</option>
                         ))}
                     </select>
+                    </Link>
                 </div>
             </div>
         </>
