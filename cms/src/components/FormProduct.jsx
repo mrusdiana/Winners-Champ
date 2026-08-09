@@ -114,7 +114,7 @@ export function FormProduct({ id, product }) {
     }
 
     return (
-        <div className="flex justify-center h-screen items-center fixed bg-white/30 backdrop-blur-md w-screen top-0">
+        <div className="flex justify-center h-screen items-center fixed bg-white/80 backdrop-blur-md w-screen top-0">
             <div className="bg-white shadow-md p-4">
 
                 <h1 className="text-black/80 font-black text-3xl uppercase italic mb-1">
